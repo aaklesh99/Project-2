@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+ }
+:root{
+     --navbar-height:60px;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+    
+#logo{
+    margin:10px 35px;
+    
+}
+#logo img{
+    height:50px;
+    margin: 3px 6px;
+    width: 50px;
+    border-radius: 50px;
+}
+#navbar ul{
+    display: flex;
+    font-family: 'Baloo Bhai 2', cursive;
+         
+}
+#navbar::before{
+    content: "";
+    background-color:black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+    }
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;      
+}
+#navbar ul li a{
+    color: rgb(124, 81, 224);
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    border-color: blue;
+    text-decoration: none;        
+}
+#navbar ul li a:hover{
+    color: black; 
+    background-color: rgb(156, 90, 90);
+    height: 30px;
+    width:100px;   
+       
+}
+.nav{
+    background-color: black;
+}
+.btn1{
+    padding: 6px 20px;
+    border: 2px solid cyan;
+    background-color: brown;
+    border-radius: 15px;
+    color: gold;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.log{
+    position:absolute;
+    margin-left: 1200px;
+    padding:5px 5px 5px 5px;
+}
+
+
+
+
+
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border: 2px solid palevioletred;
+    
+}
+form {
+    border: 2px solid blue;
+    height: 95%;
+    width: 45%;
+    margin: auto;
+    background-color: rgb(115, 153, 143);
+    opacity: 1;
+    border-radius: 20px;
+    
+    opacity:1;
+    
+    
+}
+#home::before{
+    content: "";
+    background:url(https://static3.bigstockphoto.com/7/9/2/large1500/297327022.jpg) no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 1.8;
+}
+ .txt{
+    margin-bottom: auto;
+    font-family: 'Baloo Bhai 2', cursive;
+    margin-bottom: 500px;
+    position: relative;
+    margin-left: 40px;
+    color: rgba(13, 241, 63, 0.603);
+}
+ .sign-logo{
+    
+   margin-top: -500px;
+    margin-left: 20px;
+    padding: 5px;
+    height: 5%;  
+    position: relative; 
+       
+}
+.sign-logo button{
+    width: 68px;
+    height: 68px;
+    margin-left: 15px;   
+    border-radius: 14px;    
+}
+.i img{
+   
+    margin-bottom: 45px;
+    margin-right: 20px;
+    width: 65px;
+   
+}
+.regn {
+    margin-top: 50px;
+    margin-left: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}    
+input[type=text],
+input[type=password],
+input[type=email]  {
+    width: 80%;
+    padding: 12px 20px;
+   
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button :hover {
+    background-color: rgb(90, 10, 10);
+    cursor: pointer;
+    border-radius: 10px;
+}
+.btn{
+    
+        
+        color:white;
+        background-color: red;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 50%;
+        margin-left: 60px;
+        border-radius: 23px;
+}
+button :hover{
+    opacity: 0.8;
+}
+.btn1{
+    background-color:brown;
+}
+.btn1:hover{
+    
+    height: 50px;
+    width:170px;
+    background-color: rgb(223, 18, 154);
+    font-size: 1.6rem;
+    border-radius: 15px;
+    
+}
+h4{
+    color:rgb(16, 190, 221)
+}
+
+
+
+

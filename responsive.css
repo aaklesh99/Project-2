@@ -1,0 +1,138 @@
+@media only screen and (max-width:1405px){
+    #service .box{
+        border: 2px solid blue;
+        background-color: rgb(247, 242, 235);
+        height: 8%;
+        width: 25% ;
+        margin: 20px;
+        padding: 2px 3px;
+        border-radius: 23px;    
+       
+        
+    }
+    .cardImage{
+        margin-left: 60px;
+        height: 140px;
+        width: 140px;
+        }
+        
+}
+@media only screen and (max-width:1245px){
+    #service{
+           
+        flex-direction: column-reverse;
+        width: 250%;
+        height: 500%;
+        margin-left: 110px;
+        
+        
+     }
+    
+    .cardImage{
+        margin-left: 100px;
+       
+        height: 140px;
+        width: 250px;
+        
+    }
+        .h-txt{
+            font-size: 3.8rem;
+            padding: 12px;
+            margin-left: 25%;
+          
+        }
+        .h-txt2{
+            font-size: 2.8rem;
+            padding: 15px;
+            margin-left: 25%;
+          
+            
+            
+        }
+    
+    
+}
+@media only screen and (max-width:1405px){
+    #home::before{
+        content: "";
+        background:url(https://static3.bigstockphoto.com/7/9/2/large1500/297327022.jpg) no-repeat center center/cover;
+        position: absolute;
+        height: 130%;
+        width: 120%;
+        z-index: -1;
+        opacity: 0.9;
+    }
+
+}
+@media only screen and (max-width:1677px){
+    .log{
+        position:absolute;
+        margin-left: 1300px;
+        padding:5px 5px 5px 5px;
+    }
+
+}
+@media only screen and (max-width:1581px){
+    .log{
+        position:absolute;
+        margin-left: 1200px;
+        padding:5px 5px 5px 5px;
+    }
+
+}
+@media only screen and (max-width:1476px){
+    .log{
+        position:absolute;
+        margin-left: 1100px;
+        padding:5px 5px 5px 5px;
+    }
+
+}
+@media only screen and (max-width:1377px){
+    .log{
+        position:absolute;
+        margin-left: 1000px;
+        padding:5px 5px 5px 5px;
+    }
+
+}
+@media only screen and (max-width:1277px){
+    .log{
+        position:absolute;
+        margin-left: 900px;
+        padding:5px 5px 5px 5px;
+    }
+
+}
+@media only screen and (max-width:1180px){
+    .log{
+        position:absolute;
+        margin-left: 800px;
+        padding:5px 5px 5px 5px;
+    }
+
+}
+@media only screen and (max-width:1077px){
+    .log{
+        position:absolute;
+        margin-left: 700px;
+        padding:5px 5px 5px 5px;
+    }
+
+}
+@media only screen and (max-width:978px){
+    .log{
+        position:absolute;
+        margin-left: 600px;
+        padding:5px 5px 5px 5px;
+    }
+
+}
+@media only screen and (max-width:877px){
+    .log{
+        position:absolute;
+        margin-left: 500px;
+        padding:5px 5px 5px 5px;
+    }
+
+}

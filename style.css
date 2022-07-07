@@ -1,0 +1,169 @@
+*{
+margin: 0;
+padding: 0;
+}
+:root{
+    --navbar-height:60px;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    position: relative;
+    
+}
+
+#logo{
+    margin:10px 35px;
+    
+}
+#logo img{
+    height:50px;
+    margin: 3px 6px;
+    width: 50px;
+    border-radius: 50px;
+}
+.navlist{
+    display: flex;
+    font-family: 'Baloo Bhai 2', cursive;
+         
+}
+.nav{
+    background-color: black;
+}
+#navbar::before{
+    content: "";
+    
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+    }
+    .navlist li{
+    list-style: none;
+    font-size: 1.3rem;      
+}
+.navlist li a{
+    color: rgb(241, 240, 243);
+    display: block;
+    padding: 3px 15px;
+    border-radius: 20px;
+    border-color: blue;
+    text-decoration: none;        
+}
+.navlist li a:hover{
+    color: white; 
+    background-color: rgb(243, 9, 9);
+    height: 30px;
+    width:90px;   
+       
+}
+
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+}
+#home::before{
+    content: "";
+    background:url(https://static3.bigstockphoto.com/7/9/2/large1500/297327022.jpg) no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.9;
+}
+.h-primary{
+    font-size: 3.8rem;
+    padding: 12px;
+    color: cyan;
+}
+#home h1{
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+#home p{
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+.btn{
+    padding: 6px 20px;
+    border: 2px solid cyan;
+    background-color: brown;
+    border-radius: 15px;
+    color: gold;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.log{
+    position:absolute;
+    margin-left: 1400px;
+    padding:5px 5px 5px 5px;
+    display: flex;
+}
+.log:hover{
+    width:50px;
+}
+.btn:hover{
+    height: 50px;
+    width:170px;
+    background-color: rgb(223, 18, 154);
+    font-size: 1.6rem;
+}
+.items{
+    margin-right: 10px;
+}
+#service{
+    margin: auto;
+    display: flex;
+    width: 100%;
+   
+}
+ .box{
+    border: 2px solid blue;
+    background-color: rgb(247, 242, 235);
+    height: 10%;
+    width: 30% ;
+    margin: 20px;
+    padding: 2px 3px;
+    border-radius: 23px;    
+   
+    
+}
+.cardImage{
+margin-left: 70px;
+
+}
+
+
+.h-txt{
+    font-size: 3.8rem;
+    padding: 12px;
+    margin-left: 35%;
+}
+.h-txt2{
+    font-size: 2.8rem;
+    padding: 15px;
+    margin-left: 25%;
+    
+    
+}
+.txt3{
+    margin-left: 10px;
+    font-size: 1.8rem;
+    margin: 1.8rem;
+}
+.service{
+    display: block;
+    margin: 50px 40px;
+    margin-bottom: 500px;
+}
+#service-container{
+    background-color: rgb(217, 247, 247);
+}

@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    }
+    :root{
+        --navbar-height:60px;
+    }
+    #navbar{
+        display: flex;
+        align-items: center;
+        position: relative;
+        
+    }
+    
+    #logo{
+        margin:10px 35px;
+        
+    }
+    #logo img{
+        height:50px;
+        margin: 3px 6px;
+        width: 50px;
+        border-radius: 50px;
+    }
+    #navbar ul{
+        display: flex;
+        font-family: 'Baloo Bhai 2', cursive;
+             
+    }
+    .nav{
+        background-color: black;
+    }
+    #navbar::before{
+        content: "";
+        
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        z-index: -1;
+        opacity: 0.4;
+        }
+    #navbar ul li{
+        list-style: none;
+        font-size: 1.3rem;      
+    }
+    #navbar ul li a{
+        color: rgb(241, 240, 243);
+        display: block;
+        padding: 3px 15px;
+        border-radius: 20px;
+        border-color: blue;
+        text-decoration: none;        
+    }
+    #navbar ul li a:hover{
+        color: white; 
+        background-color: rgb(243, 9, 9);
+        height: 30px;
+        width:100px;   
+           
+    }
+    #sec{
+        position: relative;
+        display: block;
+        display: flex;
+        background-color: aliceblue;
+        height: 100%;
+        width: 100%;
+        
+        
+    }
+    #sec .box{
+        border: 2px solid blue;
+        background-color: rgb(247, 242, 235);
+        height: 80px;
+        width: 40% ;
+        margin: 20px;
+        margin-left: 30%;
+        display: flex;
+        padding: 2px 3px;
+        border-radius: 10px;
+        align-items: center;
+            
+    }
+    #sec .box img{
+        margin-left: -4px;
+        border-radius: 10px 0px 0px 10px;
+        height: 110%;
+        width: 20%;
+     }
+     #sec .box .h-txt2{
+        margin-top: -50px;
+        margin-left: 40px;
+        font-size: 2rem;
+    }
+    .price{
+        margin-top: 55px;
+        margin-left: -440px;
+    }
+    
+    .addbtn{
+        height: 40px;
+        margin-top: 65px;
+        margin-left: 230px;
+        border:2px solid blue;
+        border-radius: 5px;
+        background-color: crimson;
+        font-size: 1.1rem;
+        margin-top: 50px;
+    }
+    
